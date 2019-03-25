@@ -1,5 +1,4 @@
 discord.py
-os
 urllib
 re
 random
