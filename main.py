@@ -69,3 +69,4 @@ async def info(ctx, user: discord.User):#принимает сообщение (
 
 
 token = os.environ.get('BOT_TOKEN')
+bot.run(str(token))
