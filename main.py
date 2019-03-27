@@ -68,6 +68,6 @@ async def info(ctx, user: discord.User):#принимает сообщение (
     await Bot.delete_message(ctx.message)#Бот удаляет сообщение с командой "info"
 
 
-#token = os.environ.get('BOT_TOKEN')
-#Bot.run(str(token))
-Bot.run("NTU3NjQzMzM0NjM4NzY0MDMy.D3LRow.9XTMld9cdYjpLd3INhYezuRWHtg")
+token = os.environ.get('BOT_TOKEN')
+Bot.run(str(token))
+
